@@ -1,0 +1,10 @@
+Circuit: *line regulation
+
+u3:v7: Missing value, assumed 0V @ DC
+Per .tran options, skipping operating point for transient analysis.
+.step vsource=12
+Changing Tseed to 9.76562e-009
+Changing Tseed to 9.76563e-011
+Heightened Def Con from 4.17359e-006 ++++++++++to 4.17359e-006
+Heightened Def Con from 4.17359e-006 +++++++++++++++++++++++++++to 4.17959e-006
+Heightened Def Con from 0.00741138 to 0.00741138

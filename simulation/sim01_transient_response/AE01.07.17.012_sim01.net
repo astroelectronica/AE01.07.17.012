@@ -1,0 +1,6 @@
+*transient response
+.inc ../AE01.07.17.012.cir
+.param VSOURCE=12
+.param ILOAD=0.175
+.param x_base=100m
+.tran 0 {x_base} 0 uic startup

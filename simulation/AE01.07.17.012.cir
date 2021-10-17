@@ -1,0 +1,25 @@
+.title KiCad schematic
+.include "models/1N5819.lib"
+.include "models/SML-D13FW.lib"
+.include "models/c1608c0g1h470j080aa_p.mod"
+.include "models/c2012c0g2a152j060aa_p.mod"
+.include "models/ceu4j2x7r1h104m125ae_p.mod"
+.include "models/mc34063.lib"
+XU3 /SWC 0 /TC 0 /FB VCC /SNS /DC MC34063p
+R1 /SNS VCC 0.22
+XU2 /TC 0 C2012C0G2A152J060AA_p
+C1 VCC 0 100u Rser=0.1
+XU1 VCC 0 CEU4J2X7R1H104M125AE_p
+V1 VCC 0 {VSOURCE}
+D1 /SWC VDD DI_1N5819
+L1 /SNS /SWC 170u rser=0.640
+C2 VDD 0 330u Rser=0.1
+R4 VDD /FB 47K
+XU5 VDD /FB C1608C0G1H470J080AA_p
+R5 /FB 0 2.2K
+R3 VDD /LED_ON 5.36K
+D2 /LED_ON 0 SML-D13FW
+I1 VDD 0 {ILOAD}
+XU4 VDD 0 CEU4J2X7R1H104M125AE_p
+R2 /DC /SNS 180
+.end
